@@ -84,8 +84,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -212,9 +211,14 @@
       "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "bbc6c5acd078644f",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "2026-04-08.md",
+    "README.md",
+    "Untitled.canvas"
+  ]
 }
