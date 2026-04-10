@@ -1,8 +1,10 @@
 <%*
-const month = tp.date.now("MMMM-YYYY")
-const folder = `03-Summaries/Monthly`
+const monthName = tp.date.now("MMMM-YYYY")
+const year = tp.date.now("YYYY")
+const folder = `01-Daily-Diary/${year}/Summaries/Monthly`
+await app.vault.createFolder(`01-Daily-Diary/${year}/Summaries`).catch(()=>{})
 await app.vault.createFolder(folder).catch(()=>{})
-const filePath = `${folder}/${month}`
+const filePath = `${folder}/${monthName}`
 await tp.file.move(filePath)
 %>
 # 📆 <% tp.date.now("MMMM YYYY") %> Summary
@@ -16,10 +18,9 @@ await tp.file.move(filePath)
 ## 🧠 Technical Learnings
 - 
 
-## 🔗 Weekly Links
+## 🔗 Weekly Summaries
 ```dataview
 LIST
-FROM "03-Summaries/Weekly"
-WHERE contains(file.name, "<% tp.date.now('YYYY') %>")
+FROM "01-Daily-Diary/<% tp.date.now('YYYY') %>/Summaries/Weekly"
 SORT file.name ASC
 ```

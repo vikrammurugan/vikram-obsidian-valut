@@ -7,9 +7,8 @@ if (day === 0 || day === 6) {
 }
 const leaveToday = await tp.system.suggester(["No","Yes"],["No","Yes"], false, "Are you on leave?")
 const year = window.moment(selectedDate).format("YYYY")
-const folder = `02-Scrum-Prep/${year}/Notes/Sprint-Notes`
+const folder = `02-Scrum-Prep/${year}/Sprint-Notes`
 await app.vault.createFolder(`02-Scrum-Prep/${year}`).catch(()=>{})
-await app.vault.createFolder(`02-Scrum-Prep/${year}/Notes`).catch(()=>{})
 await app.vault.createFolder(folder).catch(()=>{})
 const filePath = `${folder}/Scrum - ${selectedDate}.md`
 const existing = app.vault.getAbstractFileByPath(filePath)
@@ -20,23 +19,27 @@ if (existing) {
 }
 await tp.file.move(filePath.replace('.md',''))
 %>
-🎯 Scrum Update - <% selectedDate %>
+---
+date: <% selectedDate %>
 leave: <% leaveToday === "Yes" %>
-summary_link: 02-Scrum-Prep/<% year %>/Summary
+summary_link: [[02-Scrum-Prep/<% year %>/Summary]]
+---
 
-✅ Yesterday (auto link kept)
-01-Daily-Diary/<% year %>/Notes/<% window.moment(selectedDate).format("MM-MMMM") %>/<% window.moment(selectedDate).subtract(1, 'days').format("YYYY-MM-DD") %> > ✅ What happened today
+# 🎯 Scrum Update - <% selectedDate %>
 
-✍️ Yesterday talking points (manual)
+## ✅ Yesterday
+[[01-Daily-Diary/<% year %>/Notes/<% window.moment(selectedDate).format("MM-MMMM") %>/<% window.moment(selectedDate).subtract(1, 'days').format("YYYY-MM-DD") %>]] > ✅ What happened today
+
+## ✍️ Yesterday Talking Points
 * 
 * 
 * 
 
-🚧 Blockers
+## 🚧 Blockers
 * 
 
-🎯 Today Plan
+## 🎯 Today Plan
 * 
 
-🌴 Leave
+## 🌴 Leave
 * <% leaveToday === "Yes" ? "On leave today" : "Working" %>

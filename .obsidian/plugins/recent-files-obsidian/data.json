@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Yearly Summary.md",
-      "path": "_Templates/Yearly Summary.md.md"
+      "basename": "consolidated.md",
+      "path": "_Templates/consolidated.md.md"
     },
     {
-      "basename": "Monthly Summary.md",
-      "path": "_Templates/Monthly Summary.md.md"
+      "basename": "Daily Diary.md",
+      "path": "_Templates/Daily Diary.md.md"
+    },
+    {
+      "basename": "scrum_summary.md",
+      "path": "_Templates/scrum_summary.md.md"
+    },
+    {
+      "basename": "Yearly Summary.md",
+      "path": "_Templates/Yearly Summary.md.md"
     },
     {
       "basename": "Weekly Summary.md",
       "path": "_Templates/Weekly Summary.md.md"
     },
     {
-      "basename": "Scrum Prep.md",
-      "path": "_Templates/Scrum Prep.md.md"
+      "basename": "Monthly Summary.md",
+      "path": "_Templates/Monthly Summary.md.md"
     },
     {
-      "basename": "Daily Diary.md",
-      "path": "_Templates/Daily Diary.md.md"
+      "basename": "Scrum Prep.md",
+      "path": "_Templates/Scrum Prep.md.md"
     }
   ],
   "omittedPaths": [],

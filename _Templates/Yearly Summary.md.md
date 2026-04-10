@@ -1,6 +1,6 @@
 <%*
 const year = tp.date.now("YYYY")
-const folder = `03-Summaries/Yearly`
+const folder = `01-Daily-Diary/${year}/Summaries`
 await app.vault.createFolder(folder).catch(()=>{})
 const filePath = `${folder}/${year}-Summary`
 await tp.file.move(filePath)
@@ -19,7 +19,6 @@ await tp.file.move(filePath)
 ## 🔗 Monthly Summaries
 ```dataview
 LIST
-FROM "03-Summaries/Monthly"
-WHERE contains(file.name, "<% tp.date.now('YYYY') %>")
+FROM "01-Daily-Diary/<% tp.date.now('YYYY') %>/Summaries/Monthly"
 SORT file.name ASC
 ```
