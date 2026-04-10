@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Yearly Summary.md",
+      "path": "_Templates/Yearly Summary.md.md"
+    },
+    {
+      "basename": "Monthly Summary.md",
+      "path": "_Templates/Monthly Summary.md.md"
+    },
+    {
+      "basename": "Weekly Summary.md",
+      "path": "_Templates/Weekly Summary.md.md"
+    },
+    {
+      "basename": "Scrum Prep.md",
+      "path": "_Templates/Scrum Prep.md.md"
+    },
+    {
+      "basename": "Daily Diary.md",
+      "path": "_Templates/Daily Diary.md.md"
     }
   ],
   "omittedPaths": [],

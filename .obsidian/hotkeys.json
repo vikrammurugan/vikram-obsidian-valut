@@ -1,0 +1,34 @@
+{
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "n"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Y"
+    }
+  ]
+}

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "88bfa845ef063ce1",
+        "id": "85abf7b5f3155517",
         "type": "tabs",
         "children": [
           {
-            "id": "bbc6c5acd078644f",
+            "id": "fff8923c50cbf3e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_Templates/Yearly Summary.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Yearly Summary.md"
             }
           }
         ]
@@ -215,10 +215,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bbc6c5acd078644f",
+  "active": "fff8923c50cbf3e0",
   "lastOpenFiles": [
+    "_Templates/tpl-diary.md.md",
+    "_Templates/Yearly Summary.md.md",
+    "03-Summaries/Weekly/Week-15-2026.md",
+    "03-Summaries/Weekly/README.md",
+    "Untitled.md",
+    "03-Summaries/Weekly/01-Daily-Diary/2026/Notes/04-April/2026-04-10.md",
+    "03-Summaries/Weekly",
+    "03-Summaries",
+    "_Templates/Monthly Summary.md.md",
+    "_Templates/Weekly Summary.md.md",
+    "03-Summaries/Weekly/01-Daily-Diary/2026/Summary.md",
+    "03-Summaries/Weekly/02-Scrum-Prep/2026/Notes/Sprint-Notes/Scrum - 2026-04-10.md",
+    "_Templates/Scrum Prep.md.md",
+    "03-Summaries/Weekly/02-Scrum-Prep/2026/Notes/Sprint-Notes",
+    "03-Summaries/Weekly/02-Scrum-Prep/2026/Notes",
+    "03-Summaries/Weekly/02-Scrum-Prep/2026",
+    "03-Summaries/Weekly/02-Scrum-Prep",
+    "Untitled 2.md",
+    "03-Summaries/Weekly/01-Daily-Diary/2026/Notes/04-April",
+    "03-Summaries/Weekly/01-Daily-Diary/2026/Notes",
+    "03-Summaries/Weekly/01-Daily-Diary/2026",
+    "03-Summaries/Weekly/01-Daily-Diary",
+    "_Templates/Daily Diary.md.md",
+    "02-Scrum-Prep/2026/Sprint-Notes/Scrum - 2026-04-10.md",
+    "01-Daily-Diary/2026/04-April/2026-04-10.md",
+    "01-Daily-Diary/2026/04-April/2026-04-09.md",
+    "Untitled 1.md",
+    "Scrum - 2026-04-10.md",
+    "_Templates/tpl-sprint.md.md",
+    "_Templates/tpl-year.md.md",
+    "_Templates/tpl-scrum.md.md",
+    "_Templates/tpl-month.md.md",
+    "_Templates/tpl-week.md.md",
+    "Pasted image 20260409074321.png",
     "2026-04-08.md",
-    "README.md",
     "Untitled.canvas"
   ]
 }
