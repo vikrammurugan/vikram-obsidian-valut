@@ -5,6 +5,18 @@
       "path": "_Templates/consolidated.md.md"
     },
     {
+      "basename": "Gen AI & LLM use case and lifecycle",
+      "path": "Generative AI with Large Language Models/Gen AI & LLM use case and lifecycle.md"
+    },
+    {
+      "basename": "Transformers",
+      "path": "Generative AI with Large Language Models/Transformers.md"
+    },
+    {
+      "basename": "AI interview questions",
+      "path": "Interview Notes/AI interview questions.md"
+    },
+    {
       "basename": "Daily Diary.md",
       "path": "_Templates/Daily Diary.md.md"
     },
